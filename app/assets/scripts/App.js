@@ -4,7 +4,21 @@
  import RevealOnScroll from './modules/RevealOnScroll'
  import StickyHeader from './modules/StickyHeader'
  import ClientArea from './modules/ClientArea'
+ //React Related Code Here
+ import React from 'react'
+ import ReactDOM from 'react-dom'
 
+
+ function MyAmazingComponent() {
+     return ( <
+         div >
+         <
+         h1 className = 'section-title section-title--blue' > This Is My Amazing React Component < /h1> <
+         p > React is great, the sky is blue, grass is green. < /p> < /
+         div >
+     )
+ }
+ ReactDOM.render( < MyAmazingComponent / > , document.querySelector("#my-react-example"))
 
 
  new ClientArea()
