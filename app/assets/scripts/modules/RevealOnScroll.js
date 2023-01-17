@@ -14,7 +14,7 @@ class RevealOnScroll {
         window.addEventListener("resize", debounce(() => {
             console.log("Resize just ran")
             this.browserHeight = window.innerHeight
-        }, 2333))
+        }, 333))
     }
     calcCaller() {
         console.log("Scroll function ran")
